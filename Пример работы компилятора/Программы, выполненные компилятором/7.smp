@@ -1,0 +1,7 @@
+1 let p = p + 1
+2 for i = 1 to 9 step 2
+3 let p = p * i
+4 next
+5 print "Print multiply of uneven numbers"
+6 print p
+7 end

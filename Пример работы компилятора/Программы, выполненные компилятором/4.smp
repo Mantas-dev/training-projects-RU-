@@ -1,0 +1,18 @@
+1 print "Count"
+2 input k
+3 print "Input numbers"
+4 let i = i + 1
+5 print i
+6 input a
+7 let i = i + 1
+8 if i > k goto 16
+9 print i
+10 input b
+11 if b < a goto 14
+12 let a = a * 0
+13 let a = a + b
+14 let i = i + 1
+15 goto 8
+16 print "Print max number"
+17 print a
+18 end

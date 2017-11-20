@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simpletrone", "Simple\Simple.vcxproj", "{320DD6F7-AB95-4766-AD31-1FAFC6F0939F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F0297DC-BF14-4AAE-A56F-7D3000AE378D} = {3F0297DC-BF14-4AAE-A56F-7D3000AE378D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CompilerOfSimple", "CompilerOfSimple\CompilerOfSimple.vcxproj", "{3F0297DC-BF14-4AAE-A56F-7D3000AE378D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{320DD6F7-AB95-4766-AD31-1FAFC6F0939F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{320DD6F7-AB95-4766-AD31-1FAFC6F0939F}.Debug|Win32.Build.0 = Debug|Win32
+		{320DD6F7-AB95-4766-AD31-1FAFC6F0939F}.Release|Win32.ActiveCfg = Release|Win32
+		{320DD6F7-AB95-4766-AD31-1FAFC6F0939F}.Release|Win32.Build.0 = Release|Win32
+		{3F0297DC-BF14-4AAE-A56F-7D3000AE378D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F0297DC-BF14-4AAE-A56F-7D3000AE378D}.Debug|Win32.Build.0 = Debug|Win32
+		{3F0297DC-BF14-4AAE-A56F-7D3000AE378D}.Release|Win32.ActiveCfg = Release|Win32
+		{3F0297DC-BF14-4AAE-A56F-7D3000AE378D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

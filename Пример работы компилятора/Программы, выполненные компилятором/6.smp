@@ -1,0 +1,6 @@
+1 for i = 2 to 30 step 2
+2 let s = s + i
+3 next
+4 print "Print sum of even numbers"
+5 print s
+6 end
